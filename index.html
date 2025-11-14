@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Saqua | Aluguel de Bicicletas em Saquarema</title>
+  <meta name="description" content="Aluguel de bicicletas em Saquarema — saúde, lazer e mobilidade com a Bike Saqua!">
+  <link rel="icon" href="logo_bike.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Bike Saqua</h1>
+      <a href="#planos" class="cta-button">Ver Planos e Alugar Agora!</a>
+      <p class="tagline">Explore Saquarema com a liberdade de uma bicicleta! Fácil, rápido e seguro.</p>
+    </div>
+  </header>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Por que escolher a Bike Saqua?</h2>
+      <p>A Bike Saqua não é apenas um sistema de aluguel de bikes, ela é a sua parceira de pedal que oferece o equilíbrio perfeito entre saúde, lazer e paixão local.</p>
+      <p>O Bike Saqua será gratuito para moradores com cadastro aprovado.</p>
+      <p>Venha pedalar com a gente.</p>
+      <ul>
+        <li>✅ Atendimento rápido</li>
+        <li>✅ Preço acessível</li>
+        <li>✅ Manutenção impecável</li>
+        <li>✅ Localização privilegiada em Saquarema</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="planos" class="section planos-section">
+    <div class="container">
+      <h2>Nossos Planos de Aluguel</h2>
+
+      <div class="planos-grid">
+        <div class="plano">
+          <h3>Aluguel de 2 Horas</h3>
+          <p class="preco">R$ 20,00</p>
+          <p>Ideal para um passeio rápido na orla.</p>
+          <button class="alugar-btn" data-plano="2h">Alugar</button>
+        </div>
+
+        <div class="plano principal">
+          <h3>Diária Completa</h3>
+          <p class="preco">R$ 50,00</p>
+          <p>Liberdade para o dia inteiro de exploração.</p>
+          <button class="alugar-btn" data-plano="diaria">Alugar</button>
+        </div>
+
+        <div class="plano">
+          <h3>Fim de Semana</h3>
+          <p class="preco">R$ 90,00</p>
+          <p>O pacote perfeito para o seu final de semana em Saqua.</p>
+          <button class="alugar-btn" data-plano="fds">Alugar</button>
+        </div>
+      </div>
+
+      <p class="aviso">Planos para turistas e moradores não cadastrados</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="duvidas">
+      <a class="whatsapp" href="https://wa.me/5522981374371" target="_blank">💬 Fale conosco no WhatsApp</a>
+
+
+      <h2>Envie suas dúvidas</h2>
+	<form id="formDuvidas" action="https://formsubmit.co/leitao.cleyton@hotmail.com" method="POST">
+		<input type="hidden" name="_captcha" value="false">
+		<input type="hidden" name="_subject" value="Nova mensagem do site Bike Saqua!">
+
+		<input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+		<input type="text" name="nome" placeholder="Seu nome" required>
+		<input type="email" name="email" placeholder="Seu e-mail" required>
+		<textarea name="mensagem" rows="5" placeholder="Digite sua dúvida aqui..." required></textarea>
+
+		<button type="submit">Enviar</button>
+	</form>
+
+
+      <!-- CARTÃO DE SUCESSO -->
+      <div class="success-card" id="successCard">
+        <i>✅</i>
+        <p>Mensagem enviada com sucesso!</p>
+      </div>
+
+      <div class="container">
+        <p>&copy; 2025 Bike Saqua. Todos os direitos reservados.</p>
+        <p>Entre em contato: (22) 9XXXX-XXXX | contato@bikesaqua.com.br</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
